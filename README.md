@@ -197,29 +197,6 @@ npm config set fetch-timeout 120000
 
 ---
 
-## 🔒 Security
-- Never commit secrets. Keep `.env` out of Git.
-- Rotate the Groq key after sharing your repo.
-- Include an `.env.example` with placeholders only.
-
-**.gitignore** (important):
-```
-.venv/
-__pycache__/
-*.pyc
-.env
-web/.env.local
-web/node_modules/
-web/.next/
-media/
-logs/
-*.wav
-*.mp3
-*.webm
-```
-
----
-
 ## 📄 License
 MIT — free to use and adapt for educational demos.
 
